@@ -66,7 +66,8 @@ module.exports = {
     //'torbrowser',
     //'transmission',
     //'vlc',
-    'xquartz'
+    'xquartz',
+    'google-chrome'
   ],
   gem: [
     'git-up'
