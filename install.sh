@@ -591,6 +591,10 @@ defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryCli
 # running "Disable 'natural' (Lion-style) scrolling"
 # defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false;ok
 
+running "Enable three finger dragging"
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true;ok
+
 running "Increase sound quality for Bluetooth headphones/headsets"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40;ok
 
