@@ -40,7 +40,9 @@ module.exports = {
     'vim --with-override-system-vi',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri',
+    // emacs
+    'emacs --with-cocoa --with-dbus --with-modules --with-librsvg --with-imagemagick@6 --with-mailutils'
   ],
   cask: [
     //'adium',
