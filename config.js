@@ -67,7 +67,6 @@ module.exports = {
     //'transmission',
     //'vlc',
     'xquartz',
-    'google-chrome'
     'google-chrome',
     'Spectacle'
   ],
