@@ -41,6 +41,8 @@ module.exports = {
     'watch',
     // Install wget with IRI support
     'wget --enable-iri',
+    // aspell
+    'aspell --with-lang-en',
     // emacs
     'emacs --with-cocoa --with-dbus --with-modules --with-librsvg --with-imagemagick@6 --with-mailutils'
   ],
