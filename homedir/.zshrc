@@ -33,7 +33,9 @@ plugins=(colorize compleat dirpersist autojump git gulp history cp)
 
 source $ZSH/oh-my-zsh.sh
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+if [ "$TERM" = "xterm-256color" ] && [ -z "$INSIDE_EMACS" ]; then
+  [ -f "~/.iterm2_shell_integration.zsh" ] && source ~/.iterm2_shell_integration.zsh
+fi
 
 source /usr/local/opt/nvm/nvm.sh
 
