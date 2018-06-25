@@ -167,7 +167,7 @@ values."
                                :width normal
                                :powerline-scale 1.0)
    ;; mode line theme
-   dotspacemacs-mode-line-theme '(all-the-icons)
+   dotspacemacs-mode-line-theme '(spacemacs :separator slant)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
