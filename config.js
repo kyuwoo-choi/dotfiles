@@ -85,7 +85,9 @@ module.exports = {
     'npm-check',
     'prettyjson',
     'trash',
-    'vtop'
+    'vtop',
     // ,'yo'
+    'npm-quick-run',
+    'bower'
   ]
 };
