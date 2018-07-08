@@ -88,6 +88,7 @@ module.exports = {
     'vtop',
     // ,'yo'
     'npm-quick-run',
-    'bower'
+    'bower',
+    'tern'
   ]
 };
