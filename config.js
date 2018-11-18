@@ -44,7 +44,7 @@ module.exports = {
     // aspell
     'aspell --with-lang-en',
     // emacs
-    'emacs --with-cocoa --with-dbus --with-modules --with-librsvg --with-imagemagick@6 --with-mailutils'
+    'emacs --with-cocoa --with-dbus --with-modules --with-librsvg --with-imagemagick@6 --with-mailutils',
     // composer
     'composer'
   ],
