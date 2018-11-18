@@ -28,3 +28,6 @@ export JAVA_HOME=`/usr/libexec/java_home`
 #########################################################################
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 export NVM_DIR=~/.nvm
+
+export SAUCE_USERNAME=choikyuwoo
+export SAUCE_ACCESS_KEY=cdb328d0-0ad5-40dd-a7f5-58c9d4ecf4ef
