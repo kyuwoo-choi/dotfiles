@@ -72,7 +72,9 @@ module.exports = {
     //'vlc',
     'xquartz',
     'google-chrome',
-    'Spectacle'
+    'Spectacle',
+    'mamp',
+    'docker'
   ],
   gem: [
     'git-up'
