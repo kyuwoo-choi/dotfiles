@@ -85,7 +85,9 @@ module.exports = {
     'google-chrome',
     'Spectacle',
     'mamp',
-    'docker'
+    'docker',
+    'oracle-jdk',
+    'intellij-idea'
   ],
   gem: [
   ],
