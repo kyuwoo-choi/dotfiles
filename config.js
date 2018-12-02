@@ -87,7 +87,8 @@ module.exports = {
     'mamp',
     'docker',
     'oracle-jdk',
-    'intellij-idea'
+    'intellij-idea',
+    'gitkraken'
   ],
   gem: [
   ],
