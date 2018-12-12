@@ -52,7 +52,9 @@ module.exports = {
     // emacs
     'emacs',
     // composer
-    'composer'
+    'composer',
+    // python3
+    'python'
   ],
   cask: [
     //'adium',
